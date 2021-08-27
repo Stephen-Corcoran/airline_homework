@@ -5,17 +5,17 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class CabinCrewMemberTest {
-    CabinCrewMember cabinCrewMember;
+public class PilotTest {
+    Pilot pilot;
 
     @Before
     public void before() {
-        cabinCrewMember = new CabinCrewMember("Buzz", Rank.CAPTAIN);
+        pilot = new Pilot("Buzz", Rank.CAPTAIN, "12345");
     }
 
     @Test
     public void canRelayMessageToPassengers(){
-        assertEquals("Brace for impact", CabinCrewMember.relayMessageToPassengers());
+        assertEquals("to infinity and beyond", Pilot.canFlyThePlane());
 
 
     }

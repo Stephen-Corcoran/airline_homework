@@ -2,9 +2,9 @@ package People;
 
 public class CabinCrewMember extends Person {
 
-    private int rank;
+    private Rank rank;
 
-    public CabinCrewMember (String name, int rank) {
+    public CabinCrewMember (String name, Rank rank) {
         super(name);
         this.rank = rank;
     }

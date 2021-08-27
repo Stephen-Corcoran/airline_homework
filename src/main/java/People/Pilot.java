@@ -4,7 +4,7 @@ public class Pilot extends CabinCrewMember {
 
     private String pilotLicenceNumber;
 
-    public Pilot (String name, int rank, String pilotLicenceNumber ) {
+    public Pilot (String name, Rank rank, String pilotLicenceNumber) {
         super(name, rank);
         this.pilotLicenceNumber = pilotLicenceNumber;
     }
@@ -13,7 +13,7 @@ public class Pilot extends CabinCrewMember {
         return pilotLicenceNumber;
     }
 
-    public String flyThePlane() {
+    public static String canFlyThePlane() {
         return "to infinity and beyond";
     }
 }
