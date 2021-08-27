@@ -1,4 +1,4 @@
 package People;
 
-public enum CabinCrewMember {
+public enum CabinCrewMember  {
 }
