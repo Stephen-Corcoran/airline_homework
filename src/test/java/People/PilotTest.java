@@ -14,7 +14,7 @@ public class PilotTest {
     }
 
     @Test
-    public void canRelayMessageToPassengers(){
+    public void canFlyThePlane(){
         assertEquals("to infinity and beyond", Pilot.canFlyThePlane());
 
 
