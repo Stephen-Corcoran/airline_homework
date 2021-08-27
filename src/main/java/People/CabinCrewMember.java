@@ -12,4 +12,8 @@ public class CabinCrewMember extends Person {
     public Rank getRank(Rank rank) {
         return rank;
     }
+
+    public String relayMessageToPassengers(){
+        return "Brace for impact";
+    }
 }
