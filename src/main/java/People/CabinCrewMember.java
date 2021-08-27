@@ -13,7 +13,7 @@ public class CabinCrewMember extends Person {
         return rank;
     }
 
-    public String relayMessageToPassengers(){
+    public static String relayMessageToPassengers(){
         return "Brace for impact";
     }
 }
