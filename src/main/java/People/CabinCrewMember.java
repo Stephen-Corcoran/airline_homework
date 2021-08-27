@@ -9,7 +9,7 @@ public class CabinCrewMember extends Person {
         this.rank = rank;
     }
 
-    public int getRank() {
+    public Rank getRank(Rank rank) {
         return rank;
     }
 }
