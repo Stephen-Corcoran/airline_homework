@@ -1,17 +1,17 @@
 package Planes;
 
-public enum Plane {
+public class Plane {
+    private PlaneType type;
 
-    BOEING747(747);
-
-    private int capacity;
-
-    Plane(int capacity){
-        this.capacity = capacity;
+    public Plane(PlaneType type){
+        this.type = type;
     }
 
-    public int getCapacity() {
-        return capacity;
+    public PlaneType getType() {
+        return type;
+    }
+
+    public void setType(PlaneType type) {
+        this.type = type;
     }
 }
-
